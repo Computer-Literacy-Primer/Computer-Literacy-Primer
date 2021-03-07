@@ -1,0 +1,6 @@
+[book]
+title = "计算机入门指南"
+authors = ["计算机入门指南编辑组"]
+language = "zh-CN"
+multilingual = false
+src = "src"
