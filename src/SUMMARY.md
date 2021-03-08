@@ -37,11 +37,11 @@
     - [常规的分盘](misc/not-start.md)
     - [用户文档、系统关键目录、关键文件](misc/not-start.md)
 
-- [第四章：认识互联网](misc/not-start.md)
-    - [连接无线网络](misc/not-start.md)
-    - [连接有线网络](misc/not-start.md)
-    - [浏览器简介](misc/not-start.md)
-    - [搜索引擎](misc/not-start.md)
+- [第四章：认识互联网](chapter-4-network/README.md)
+    - [连接有线网络](chapter-4-network/connect-to-wired-network.md)
+    - [连接无线网络](chapter-4-network/connect-to-wireless-network.md)
+    - [浏览器简介](chapter-4-network/intro-web-browser.md)
+    - [搜索引擎](chapter-4-network/search-engine.md)
 
 - [第五章：常见软件举隅](misc/not-start.md)
     - [截图软件：Snipaste](misc/not-start.md)
