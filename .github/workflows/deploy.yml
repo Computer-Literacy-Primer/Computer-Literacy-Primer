@@ -3,9 +3,9 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
+#  pull_request:
+#    branches:
+#      - master
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
         mdbook-version: 'latest'
     - run: mdbook build
     - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' }}
+      #if: ${{ github.event_name == 'push' }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
