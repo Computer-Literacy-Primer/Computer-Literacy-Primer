@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title></title>
+        
+        
+        <base href="/">
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        
+        <link rel="stylesheet" href="css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="preface.html"><strong aria-hidden="true">1.</strong> 序言</a></li><li class="chapter-item expanded "><a href="preliminary-chapter-A/index.html"><strong aria-hidden="true">2.</strong> 预备章 A：怎么打开/关闭我的手提？</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="preliminary-chapter-A/mouse-and-touchpad.html"><strong aria-hidden="true">2.1.</strong> 鼠标的左中右键、触摸板的按键</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">2.2.</strong> 电源线、开机键</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">2.3.</strong> 预装的系统怎么设置</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">2.4.</strong> 调出桌面的计算机按钮</a></li></ol></li><li class="chapter-item expanded "><a href="preliminary-chapter-B/index.html"><strong aria-hidden="true">3.</strong> 预备章 B：怎么打开/关闭我的台式机、一体机？</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">3.1.</strong> 鼠标的左中右键</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">3.2.</strong> 电源线、视频线、鼠标键盘线/无线键鼠接收器、开机键</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">3.3.</strong> 调出桌面的计算机按钮</a></li></ol></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">4.</strong> 第一章：认识屏幕</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">4.1.</strong> 常用图标</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">4.2.</strong> 任务栏</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">4.3.</strong> 通知区</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">4.4.</strong> 开始菜单</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">4.5.</strong> 练习：找出计算器</a></li></ol></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">5.</strong> 第二章：认识键盘</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">5.1.</strong> 键盘的分区</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">5.2.</strong> 基本键位</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">5.3.</strong> Win、Shift、Ctrl、Alt 键</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">5.4.</strong> 中文输入法</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">5.5.</strong> 练习：输入两行文字</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">5.6.</strong> F1~F12；笔记本电脑上的 Fn；</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">5.7.</strong> 导航键、PrtSc</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">5.8.</strong> 主键盘区旁边的分区</a></li></ol></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">6.</strong> 第三章：认识文件系统</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">6.1.</strong> 文件的查找；文件的删除</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">6.2.</strong> 文件的类型、文件的后缀名</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">6.3.</strong> 练习：在记事本中输入文字后保存</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">6.4.</strong> 练习：在画图中画画然后保存</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">6.5.</strong> 常规的分盘</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">6.6.</strong> 用户文档、系统关键目录、关键文件</a></li></ol></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">7.</strong> 第四章：认识互联网</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">7.1.</strong> 连接无线网络</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">7.2.</strong> 连接有线网络</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">7.3.</strong> 浏览器简介</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">7.4.</strong> 搜索引擎</a></li></ol></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">8.</strong> 第五章：常见软件举隅</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">8.1.</strong> 截图软件：Snipaste</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">8.2.</strong> 压缩软件：Bandizip</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">8.3.</strong> 聊天软件：以 QQ、微信为例</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">8.4.</strong> 办公软件：WPS，线上版可以教人用盗版 MS Office（大概</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">8.5.</strong> 编程软件：Python，命令行入门</a></li></ol></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">9.</strong> 第六章：计算机安全</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">9.1.</strong> 不要安装奇怪来源的软件；Windows Defender</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">9.2.</strong> 使用强密码</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">9.3.</strong> 避免网站的追踪</a></li></ol></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">10.</strong> 第七章：电脑与手机的协作</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">10.1.</strong> 蓝牙传文件</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">10.2.</strong> 典型的跨平台工作软件如 WPS</a></li></ol></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">11.</strong> 第八章：畅快的使用互联网设施</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">11.1.</strong> 浏览器插件举例：Adblocker</a></li><li class="chapter-item expanded "><a href="misc/not-start.html"><strong aria-hidden="true">11.2.</strong> BT 下载、种子、磁力链</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">计算机入门指南</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="404-not-found"><a class="header" href="#404-not-found">404 Not Found</a></h1>
+<p>这里不是您想要的文档呢，请尝试搜索一下！</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
