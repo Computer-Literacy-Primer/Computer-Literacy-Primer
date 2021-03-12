@@ -29,13 +29,13 @@
     - [导航键、PrtSc](misc/not-start.md)
     - [主键盘区旁边的分区](misc/not-start.md)
 
-- [第三章：认识文件系统](misc/not-start.md) 
-    - [文件的查找；文件的删除](misc/not-start.md)
-    - [文件的类型、文件的后缀名](misc/not-start.md)
+- [第三章：认识文件系统](chapter-3/README.md) 
+    - [文件操作](chapter-3/file-operation.md)
+    - [文件的类型、文件的后缀名](chapter-3/file-operation.md)
     - [练习：在记事本中输入文字后保存](misc/not-start.md)
     - [练习：在画图中画画然后保存](misc/not-start.md)
-    - [常规的分盘](misc/not-start.md)
-    - [用户文档、系统关键目录、关键文件](misc/not-start.md)
+    - [分区](chapter-3/partition.md)
+    - [根目录和用户目录](chapter-3/root-and-user-folder)
 
 - [第四章：认识互联网](misc/not-start.md)
     - [连接无线网络](misc/not-start.md)
