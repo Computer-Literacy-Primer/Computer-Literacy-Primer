@@ -1,6 +1,7 @@
 # Summary
 
 - [序言](preface.md)
+
 - [预备章 A：怎么打开/关闭我的手提？](preliminary-chapter-A/README.md)
     - [鼠标的左中右键、触摸板的按键](preliminary-chapter-A/mouse-and-touchpad.md)
     - [电源线、开机键](misc/not-start.md)
