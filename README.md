@@ -1,6 +1,6 @@
 # 计算机入门指南
 
-《计算机入门指南 (Computer Literacy Primer)》
+《计算机入门指南（Computer Literacy Primer）》
 
 本项目旨在为计算机初学者提供简明实用的上手指南。
 
@@ -10,5 +10,4 @@
 
 在线阅读地址：
 
-- 通过GitHub Pages托管的静态页（推荐）：[GitHub Pages](https://computer-literacy-primer.github.io/Computer-Literacy-Primer/)
-- 直接通过GitHub阅读md格式的文件：[目录页](src/SUMMARY.md)
+- [GitHub Pages](https://computer-literacy-primer.github.io/Computer-Literacy-Primer/)
